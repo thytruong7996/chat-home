@@ -1,0 +1,13 @@
+.title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #2B3595;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .title > i{
+    cursor: pointer;
+  }

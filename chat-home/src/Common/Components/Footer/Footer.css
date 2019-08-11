@@ -1,0 +1,46 @@
+.footer{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #94A2AE;
+    background: #F3F4F6;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .footer .left, .footer .right{
+    width: 45%;  
+  }
+  
+  .icon{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .middle{
+    position: relative;   
+  }
+  
+  .add-button{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: #FF3796;
+    border-radius: 30px;
+    top: -60px;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.75);
+  }
+  
+  i{
+    cursor: pointer;
+  }
+  
+  .add-button i{
+    font-size: 30px;
+    color: white;
+  }
