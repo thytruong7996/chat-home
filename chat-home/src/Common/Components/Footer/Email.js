@@ -5,7 +5,7 @@ class Email extends Component {
     render() {
         return (
             <div className="icon email">
-<i className="far fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
 </div>
         );
     }

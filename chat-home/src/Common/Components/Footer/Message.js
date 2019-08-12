@@ -5,7 +5,7 @@ class Message extends Component {
     render() {
         return (
             <div className="icon message">
-            <i className="far fa-comment-alt"></i>
+            <i className="fas fa-comment-alt"></i>
           </div>
         );
     }

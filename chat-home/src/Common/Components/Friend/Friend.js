@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Friend.css';
+
 
 class Friend extends Component{  
   render(){
@@ -39,7 +39,7 @@ class Friend extends Component{
             <div className="nearest-online">{this.props.nearestOnline}</div>
           </div>
           <div className="bottom d-flex align-items-center">
-            <p className="status flex-grow-1">{this.props.status.slice(0, 30)}</p>
+            <p className="status flex-grow-1">{this.props.status.slice(0, 60)}</p>
             {messageCountEl}            
           </div>
         </div>
