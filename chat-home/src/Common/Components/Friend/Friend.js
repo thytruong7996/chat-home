@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {Link} from 'react-router-dom';
 
 class Friend extends Component{  
   render(){
@@ -27,10 +27,12 @@ class Friend extends Component{
       onlineStatusEl =  <div className="online-status" style={onlineStatusDisplay}></div>
     if(messageCount !== 0)
       messageCountEl = <p className="message-count">{messageCount}</p>
-    return(      
-      <div className="wapper d-flex align-items-center">
+    return(  
+          
+      <Link  to={"/detail/" +this.props.name+ this.props.id}>
+      <div className="wapper d-flex align-items-center" >
         <div className="friend-face">
-          <img src={this.props.faceImageUrl} alt=""></img>
+         <img src={this.props.faceImageUrl} alt=""></img>
           {onlineStatusEl}
         </div>
         <div className="context d-flex flex-column justify-content-center flex-grow-1">
@@ -44,6 +46,7 @@ class Friend extends Component{
           </div>
         </div>
       </div>
+      </Link>
     )
   }
 }

@@ -5,10 +5,12 @@ import Book from './Book';
 import Message from './Message';
 import AddButton from './AddButton';
 
+
 class Footer extends Component{
   render(){
+ 
     return (
-      
+         
       <div className="footer col-12 d-flex align-items-center">
         <div className="left d-flex align-items-center justify-content-start">
           <Email></Email>

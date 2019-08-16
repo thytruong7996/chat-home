@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
 
-
 import Header from './Common/Components/Header/Header';
-import FriendList from './Common/Components/Friend_List/FriendList';
 import Footer from './Common/Components/Footer/Footer';
+import URL from './Common/Router/URL';
 function App() {
+  
   return (
     <div className="App">
-      
       <Header title="Dashboard"></Header>          
-      <FriendList></FriendList>
+      <URL/>
       <Footer></Footer>
     </div>
   );
